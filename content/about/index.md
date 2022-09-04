@@ -6,4 +6,4 @@ draft: false
 ---
 
 ### 联系方式
-E-mail: [i@kaleidoeye.cn](mailto:i@kaleidoeye.cn)
+E-mail: [i@kaleidoeye.org](mailto:i@kaleidoeye.org)
