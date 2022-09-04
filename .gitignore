@@ -1,0 +1,4 @@
+public/
+docs/
+.obsidian/
+.hugo_build.lock
