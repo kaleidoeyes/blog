@@ -5,7 +5,15 @@ hidden: true
 draft: false
 ---
 
+[HeadSalon](https://headsalon.org/)- A Salon for Heads, No Sofa for Ass
+
+海德沙龙，偶然得之，单链，辉格的思考方式是我在学习的。
+
+<hr>
+
 [Qiuyuair的自留地](https://qiuyuair.com) - Airyu's Site
+
+无线电爱好者。
 
 <hr>
 
