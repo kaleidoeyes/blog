@@ -37,7 +37,7 @@ print(resp.text)
 
 不出意外的话，你可看到如下内容：
 
-![](https://image.kaleidoeye.cn/py-zhihu-1.jpg)
+![](https://image.kaleidoeye.org/py-zhihu-1.jpg)
 
 密密麻麻……分析一下，全部内容可分为两部分：stories和top_stories，之间有重复的部分，我们取后一个好了。
 
@@ -120,7 +120,7 @@ subject为邮件的主题，contents即已编写好的邮件内容。
 
 如此，邮件就已发送完毕，如果未接收到，可以到垃圾邮件中看看。
 
-![](https://image.kaleidoeye.cn/py-zhihu-2.jpg)
+![](https://image.kaleidoeye.org/py-zhihu-2.jpg)
 
 邮件演示
 

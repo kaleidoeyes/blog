@@ -13,7 +13,7 @@ It’s a good book that involves many practical skills. I divide it into princip
 <!--more-->
 ## Principles
 
-![](https://image.kaleidoeye.cn/negotiate.jpg)
+![](https://image.kaleidoeye.org/negotiate.jpg)
 
 ### 1. Calm
 
