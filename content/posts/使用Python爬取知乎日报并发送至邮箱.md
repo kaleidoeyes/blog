@@ -120,7 +120,7 @@ subject为邮件的主题，contents即已编写好的邮件内容。
 
 如此，邮件就已发送完毕，如果未接收到，可以到垃圾邮件中看看。
 
-![自上而下的分类法](https://image.kaleidoeye.org/py-zhihu-2.jpg)
+![邮件演示](https://image.kaleidoeye.org/py-zhihu-2.jpg)
 
 
 以下是全部代码：
