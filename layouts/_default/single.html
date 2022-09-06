@@ -28,7 +28,9 @@
                     </div>
                 </div>
                 <!-- 评论系统 -->
+                {{ if .Site.Params.twikoo.enable }}
                 {{ partial "comments_twikoo.html" . }}
+                {{ end }}
             </div>
         </div>
     </div>
