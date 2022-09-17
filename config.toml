@@ -64,5 +64,3 @@ pygmentscodefencesguesssyntax = true
 [markup.goldmark.renderer]
   unsafe = true
   
-[frontmatter]
-  lastmod = ["lastmod"]

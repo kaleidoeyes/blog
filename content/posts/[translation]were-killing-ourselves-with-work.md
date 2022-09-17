@@ -1,5 +1,5 @@
 ---
-title: "译文：我们在用工作杀死自己"
+title: "[译文]我们在用工作杀死自己"
 date: 2022-09-17T15:55:04+08:00
 hidden: false
 draft: false
@@ -21,15 +21,15 @@ summary: "进化喜欢更少的工作和更多的休闲"
 
 After years of being encouraged to _choose a job I love so I’ll never work a day in my life_, I figured I had found my ticket: science. Like many academics, I identify with my work. I pursued a Ph.D. largely because I’ve always thought of myself as curious and enthusiastic about nature, particularly the brain. Research at a university felt like a natural extension of those traits.
 
-经历了多年被鼓励选择一份热爱以至于不会有一天劳作的工作后，我想我找到了入场券：科学。像许多大学生一样，我把自己与工作看齐。我过去一直在追求博士学位，因为我认为自己对自然—尤其是人脑—有好奇心与热情。在大学做研究像是这些特点的自然延伸。
+经历了多年被鼓励选择一份自己因热爱而不会感到有一天劳作的工作后，我想我找到了入场券：科学。像许多学者一样，我把自己与工作看齐。我过去一直在追求博士学位，因为我认为自己对自然—尤其是人脑—有好奇心与热情。在大学做研究像是这些特点的自然延伸。
 
 Now, as I approach graduation at the City University of New York, I’m hedging against a competitive academic job market and applying for all kinds of jobs inside and outside academia. And as a bewildering testament to the overlap between my work and my identity, I can feel my self-concept change with the waxing and waning prospects of each application, my personal narratives regularly reweaving themselves to make _this_ job—no, _that_ one—seem like the logical culmination of my efforts so far.
 
-现在，当我快要从纽约市立大学毕业时，为防范竞争激烈的学术市场带来的损失，我申请了各种各样的学术或非学术性工作。面对工作与个性的冲突这个令人困惑的事实，我能感受到自我在每次申请工作时，随着充盈与黯淡的预期而不断地改变。我的个人说明不断地重塑，这个工作——不，那一个——看来是我迄今为止逻辑上努力所带来的最好回报。
+现在，当我快要从纽约市立大学毕业时，为防范竞争激烈的学术市场带来的损失，我申请了各种学术内外的工作。面对工作与个性的冲突这个令人困惑的事实，我能感受到自我在每次申请工作时，随着充盈与黯淡的预期而不断地改变。我的个人叙述不断地重塑，这个工作——不，那一个——看来是我迄今为止逻辑上努力所带来的最好回报。
 
 Work at a nonprofit? _I’ve always been mission-driven, and I’m ready to leave behind the glacial pace and heady abstraction of academic research and actually make an impact_, goes the inner monologue. OK, never mind, they rejected me. But now that university is emailing me back. _Come to think of it, I’m passionate about education and impartial investigation, and no workplace has ever felt more like home than a college campus_. _The Atlantic_’s Derek Thompson would call this a symptom of workism: “the belief that work is not only necessary to economic production, but also the centerpiece of one’s identity and life’s purpose; and the belief that any policy to promote human welfare must _always_ encourage more work.”
 
-在非营利组织工作？我总是被使命感驱动，准备好不去考虑学术研究的缓慢进展与令人兴奋的抽象理念，真正地干出一份大事业，上演一出独角戏。好吧，没想到的是，他们拒绝了我。但是现在那所大学又召我回来。想想吧，我醉心于教育和公正的评估，没有哪个地方比校园更舒坦了。大西洋杂志的德里克·汤普森将这称为工作主义的症状：“相信工作不仅对于经济产出必要，而且是个人身份与生活目标的核心；相信任何为促进人类福祉的政策都必须鼓励工作。”
+在非营利组织工作？我总是被使命驱动，准备好不去考虑学术研究的缓慢进展与令人兴奋的抽象理念，真正地干出一份大事业，上演一出独角戏。好吧，没想到的是，他们拒绝了我。但是现在那所大学又召我回来。想想吧，我醉心于教育和公正的评估，没有哪个地方比校园更舒坦了。大西洋杂志的德里克·汤普森将这称为工作主义的症状：“相信工作不仅对于经济产出必要，而且是个人身份与生活目标的核心；相信任何为促进人类福祉的政策都必须鼓励工作。”
 
 I’m not alone in viewing work as something like a religion. In a 2019 Pew Research [report](https://www.pewresearch.org/social-trends/2019/11/06/marriage-and-cohabitation-in-the-u-s/psdt_11-06-19_cohabitation-00-01/), Americans ranked “having a job or career they enjoy” as more essential to a fulfilling life than marriage, children, or a committed relationship of any kind[^1]. Another Pew [report](https://www.pewresearch.org/social-trends/2019/02/20/most-u-s-teens-see-anxiety-and-depression-as-a-major-problem-among-their-peers/psdt_02-20-19_teens-00-07/) found that American teens ranked “having a job or career they enjoy” as even more important to them than “helping others who are in need.”[^2]
 

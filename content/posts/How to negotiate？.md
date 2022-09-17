@@ -3,7 +3,7 @@ title: "How to negotiate？"
 date: 2022-04-14
 hidden: false
 draft: false
-tags: ["话语"]
+tags: ["方法"]
 keywords: []
 description: ""
 slug: "negotiate"
