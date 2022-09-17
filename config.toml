@@ -35,9 +35,10 @@ pygmentscodefencesguesssyntax = true
   footerSlogan = ""                                   # site's footer slogan         # 网站页脚标语
   keywords = ["kaleidoeye","奂目","博客"]                                   # site's keywords              # 网站关键字
   description = ""                        # site's description           # 网站描述
-  enableMathJax = false                                                # enable mathjax               # 是否使用mathjax（数学公式）
+#  enableMathJax = false                                                # enable mathjax               # 是否使用mathjax（数学公式）
+#  enablemode = false
   enableSummary = true                                                 # display the article summary  # 是否显示文章摘要
-  mainSections = ["posts","post"]
+  mainSections = ["posts","translations"]
   fancybox = true       # 图片放大功能
 
 [params.footer]
@@ -62,3 +63,6 @@ pygmentscodefencesguesssyntax = true
 [markup.goldmark]
 [markup.goldmark.renderer]
   unsafe = true
+  
+[frontmatter]
+  lastmod = ["lastmod"]

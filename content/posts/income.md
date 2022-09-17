@@ -9,6 +9,8 @@ description: "收入、资本与利息"
 slug: "income"
 summary: "收入这个概念含意着得到，得到什么？金钱？还是用金钱买到的物品和服务？"
 enableMathJax: true
+enablemod: true
+lastmod: 2022-09-12
 ---
 
 ## 收入的衡量
