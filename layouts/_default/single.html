@@ -13,7 +13,7 @@
                         
                         <!-- 文章更新时间 -->
                         {{ if .Params.enablemod }}
-                        <span class="date"> Updated:{{ .Lastmod.Year }}.{{ printf "%d" .Lastmod.Month }}.{{ .Lastmod.Day }}</span>
+                        <span class="date">更新于: {{ .Lastmod.Year }}.{{ printf "%d" .Lastmod.Month }}.{{ .Lastmod.Day }}</span>
                         {{ end }}
 
                     </div>
