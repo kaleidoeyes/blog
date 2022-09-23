@@ -7,7 +7,7 @@ draft: false
 
 [HeadSalon](https://headsalon.org/)- A Salon for Heads, No Sofa for Ass
 
-海德沙龙，偶然得之，辉格的思考方式是我在学习的。
+海德沙龙，偶然得之。
 
 <hr>
 

@@ -3,8 +3,9 @@ title: "校园"
 date: 2022-08-27T23:21:44+08:00
 hidden: false
 draft: false
-tags: ["日志"]
-keywords: ["校园", "新鲜"]
+tags: [""]
+categories: ["日志"]
+keywords: [""]
 description: ""
 slug: "new-campus"
 summary: "南面是通体明亮的教学楼，许多蓝色的遮光窗帘形成一片片阴影，何人在做何事。"

@@ -4,7 +4,8 @@ date: 2022-09-15T22:28:29+08:00
 hidden: false
 draft: false
 tags: ["方法"]
-keywords: ["英语思维","学习英语"]
+categories: ["想法"]
+keywords: ["想法","读后"]
 description: ""
 slug: "Learn-English"
 ---

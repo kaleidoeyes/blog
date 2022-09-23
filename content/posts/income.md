@@ -3,7 +3,8 @@ title: "收入"
 date: 2022-09-08T17:59:18+08:00
 hidden: false
 draft: false
-tags: ["经济"]
+tags: ["经济学"]
+categories: ["读后"]
 keywords: ["income","收入","资本","利息"]
 description: "收入、资本与利息"
 slug: "income"

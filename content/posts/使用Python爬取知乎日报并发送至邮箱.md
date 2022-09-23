@@ -4,6 +4,7 @@ date: 2022-05-16
 hidden: false
 draft: false
 tags: ["Python"]
+categories: ["计算机"]
 keywords: []
 description: ""
 slug: "py-zhihu"

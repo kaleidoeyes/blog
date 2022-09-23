@@ -3,7 +3,8 @@ title: "认识GDP"
 date: 2022-02-27
 hidden: false
 draft: false
-tags: ["经济"]
+tags: ["经济学"]
+categories: ["读后"]
 keywords: []
 description: ""
 slug: "gdp"

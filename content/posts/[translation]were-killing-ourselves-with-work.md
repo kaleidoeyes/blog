@@ -3,7 +3,8 @@ title: "[译文]我们在用工作杀死自己"
 date: 2022-09-17T15:55:04+08:00
 hidden: false
 draft: false
-tags: ["译文"]
+tags: ["社会学"]
+categories: ["译文"]
 keywords: []
 description: ""
 slug: "were-killing-ourselves-with-work"

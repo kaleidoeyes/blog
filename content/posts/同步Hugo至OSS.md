@@ -4,6 +4,7 @@ date: 2022-08-16T21:17:11+08:00
 hidden: false
 draft: false
 tags: ["Python", "Hugo"]
+categories: ["计算机"]
 keywords: ["hugo", "oss"]
 description: ""
 slug: "hugo-oss"
