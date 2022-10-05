@@ -1,5 +1,5 @@
 ---
-title: "工业革命前的欧洲"
+title: "工业革命前的欧洲与联想"
 date: 2022-10-05T13:40:13Z
 hidden: false
 draft: false
@@ -7,7 +7,7 @@ tags: ["经济学"]
 categories: ["读后", "想法"]
 keywords: []
 description: ""
-slug: ""
+slug: "pre-industrial-era"
 ---
 前工业时代欧洲的人口一直保持着年轻的状态，也就是金字塔型。一点是因为高出生率，但由于频繁的战争、瘟疫，死亡率也很高。教科书一般认为农业社会相对于原始社会死亡率大幅下降，看来并不适用于此。
 
