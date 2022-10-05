@@ -1,6 +1,6 @@
 ---
-title: "工业革命前的欧洲与联想"
-date: 2022-10-05T13:40:13Z
+title: "工业革命前的欧洲"
+date: 2022-10-05T21:45:04+08:00
 hidden: false
 draft: false
 tags: ["经济学"]
