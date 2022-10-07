@@ -1,5 +1,5 @@
 ---
-title: "隐-现"
+title: "隐现"
 date: 2022-10-06T23:09:41+08:00
 hidden: false
 draft: false
