@@ -10,7 +10,9 @@ enableEmoji = true
 googleAnalytics = ""                   # your google analytics id       # Google统计代码
 
 rssLimit = 7                          # RSS生成文章数量
+TimeZone =  "Asia/Shanghai"
 
+enableGitInfo = true
 pygmentsUseClasses = true
 pygmentCodeFences = true
 pygmentscodefencesguesssyntax = true
@@ -63,4 +65,10 @@ pygmentscodefencesguesssyntax = true
 [markup.goldmark]
 [markup.goldmark.renderer]
   unsafe = true
+
+[frontmatter]
+  lastmod = [":git", "lastmod", ":fileModTime"]
+
+
+
   
