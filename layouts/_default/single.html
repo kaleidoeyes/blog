@@ -14,12 +14,12 @@
                         <!-- 文章更新时间 -->
                         {{ if .Params.enablemod }}
                         <span class="date">1更新于: {{ .Lastmod.Year }}.{{ printf "%d" .Lastmod.Month }}.{{ .Lastmod.Day }}</span>
-                        {{ end }}2006-01-02
+                        {{ end }}
                         
                         {{ $date := .Date.Format "2006-01-02" }}
                         {{ $lastmod := .Lastmod.Format "2006-01-02" }}
                         {{ if and (ne $lastmod $date) (gt .Lastmod .Date) }}
-                           <br/>2Updated {{ $lastmod }}
+                        <span class="date">1更新于: {{ .Lastmod.Year }}.{{ printf "%d" .Lastmod.Month }}.{{ .Lastmod.Day }}</span>
                         {{ end }}
 
 
