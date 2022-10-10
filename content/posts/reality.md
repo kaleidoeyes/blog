@@ -8,6 +8,7 @@ categories: ["日志"]
 keywords: []
 description: ""
 slug: "Reality"
+lastmod: 2022-10-06
 ---
 夏日已于两日前离开。教学楼晚上临近十点的铃声宣告它工作时间的结束，我将杯中剩余的水饮下，搅拌着我的纷杂思绪。
 

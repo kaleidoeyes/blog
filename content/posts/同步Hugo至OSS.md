@@ -8,6 +8,7 @@ categories: ["计算机"]
 keywords: ["hugo", "oss"]
 description: ""
 slug: "hugo-oss"
+lastmod: 2022-08-16
 ---
 
 由于博客系统更换到了Hugo，简单的，静态数据也就直接放到了阿里云OSS，寻找同步方式，看到了不错的方案：

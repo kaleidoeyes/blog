@@ -8,6 +8,7 @@ categories: ["想法"]
 keywords: ["想法","读后"]
 description: ""
 slug: "Learn-English"
+lastmod: 2022-09-15
 ---
 
 我们都多多少少听到过强调英语思维的建议，但是此类建议又往往含糊其辞、点到为止，仿佛它就是个一按即用的开关，但我们知道这个开关并不存在。

@@ -8,6 +8,7 @@ categories: ["读后"]
 keywords: []
 description: ""
 slug: "negotiate"
+lastmod: 2022-04-14
 ---
 
 It’s a good book that involves many practical skills. I divide it into principles and methods. As shown below.

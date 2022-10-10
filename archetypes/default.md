@@ -7,5 +7,6 @@ tags: []
 keywords: []
 description: ""
 slug: ""
+lastmod: {{ .Date }}
 ---
 

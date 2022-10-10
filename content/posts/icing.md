@@ -8,6 +8,7 @@ categories: ["日志"]
 keywords: []
 description: ""
 slug: "icing"
+lastmod: 2022-09-12
 ---
 稳定的工作流程仍在演进，说是演进，无非是没形成习惯的另一说辞罢了。
 

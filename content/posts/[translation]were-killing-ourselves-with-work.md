@@ -9,7 +9,7 @@ keywords: []
 description: ""
 slug: "were-killing-ourselves-with-work"
 summary: "进化喜欢更少的工作和更多的休闲"
-
+lastmod: 2022-09-17
 ---
 
 -----

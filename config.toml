@@ -67,7 +67,7 @@ pygmentscodefencesguesssyntax = true
   unsafe = true
 
 [frontmatter]
-  lastmod = [":git", "lastmod", ":fileModTime"]
+  lastmod = ["lastmod", ":git", "date", "publishDate"]
 
 
 

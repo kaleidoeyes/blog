@@ -9,7 +9,7 @@ keywords: ["格式塔", "gestalt"]
 description: ""
 slug: "gestalt"
 summary: ""
-
+lastmod: 2022-09-23
 ---
 
 _辉格提到了“格式塔心理学”，于是就寻找这方面的书，不多。阅读了《Gestalt Therapy Verbatim》第一部分的“Talk”，现就此进行梳理。_

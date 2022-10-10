@@ -9,7 +9,6 @@ keywords: ["马尔萨斯陷阱"]
 description: ""
 slug: "malthus"
 summary: ""
-enablemod: true
 lastmod: 2022-09-28
 ---
 

@@ -9,6 +9,7 @@ keywords: [""]
 description: ""
 slug: "new-campus"
 summary: "南面是通体明亮的教学楼，许多蓝色的遮光窗帘形成一片片阴影，何人在做何事。"
+lastmod: 2022-08-27
 ---
 
 醒来已是七点，该收拾东西了。
