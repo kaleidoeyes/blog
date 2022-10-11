@@ -6,11 +6,10 @@ theme = "zozo"
 hasCJKLanguage = true                  # has chinese/japanese/korean ?  # 自动检测是否包含 中文\日文\韩文
 summaryLength = 100
 paginate = 7                           # shows the number of articles   # 首页显示文章数量
-enableEmoji = true
+enableEmoji = false
 googleAnalytics = ""                   # your google analytics id       # Google统计代码
 
 rssLimit = 7                          # RSS生成文章数量
-TimeZone =  "Asia/Shanghai"
 
 enableGitInfo = true
 pygmentsUseClasses = true
@@ -38,13 +37,12 @@ pygmentscodefencesguesssyntax = true
   keywords = ["kaleidoeye","奂目","博客"]                                   # site's keywords              # 网站关键字
   description = ""                        # site's description           # 网站描述
 #  enableMathJax = false                                                # enable mathjax               # 是否使用mathjax（数学公式）
-#  enablemode = false
   enableSummary = true                                                 # display the article summary  # 是否显示文章摘要
-  mainSections = ["posts","translations"]
+  mainSections = ["posts"]
   fancybox = true       # 图片放大功能
 
 [params.footer]
-  powered_by = 'Copyright © Kaleidoeye 2022'
+  powered_by = 'Copyright © 2022 Kaleidoeye'
   Slogan = ""                                   # site's footer slogan 
   
 [params.twikoo]
