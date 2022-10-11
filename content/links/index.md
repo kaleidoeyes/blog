@@ -3,7 +3,7 @@ title: "友链"
 date: 2022-02-27
 hidden: true
 draft: false
-lastmod: 222-09-04
+lastmod: 2022-09-04
 ---
 
 [HeadSalon](https://headsalon.org/)- A Salon for Heads, No Sofa for Ass
