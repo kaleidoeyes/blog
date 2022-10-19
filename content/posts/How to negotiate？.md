@@ -3,8 +3,7 @@ title: "How to negotiate？"
 date: 2022-04-14
 hidden: false
 draft: false
-tags: ["方法", "心理学"]
-categories: ["读后"]
+tags: ["交流"]
 keywords: []
 description: ""
 slug: "negotiate"

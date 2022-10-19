@@ -3,9 +3,8 @@ title: "英语思维如何习得"
 date: 2022-09-15T22:28:29+08:00
 hidden: false
 draft: false
-tags: ["方法"]
-categories: ["想法"]
-keywords: ["想法","读后"]
+tags: ["语言"]
+keywords: []
 description: ""
 slug: "Learn-English"
 lastmod: 2022-09-15

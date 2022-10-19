@@ -3,8 +3,7 @@ title: "泥人的演讲：人类的三重性"
 date: 2022-09-24T19:13:43+08:00
 hidden: false
 draft: false
-tags: ["生物学"]
-categories: ["读后", "想法"]
+tags: ["进化"]
 keywords: ["莱姆狂想曲", "泥人", "进化"]
 description: ""
 slug: "clay"

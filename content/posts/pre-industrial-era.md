@@ -3,8 +3,7 @@ title: "工业革命前的欧洲"
 date: 2022-10-05T21:45:04+08:00
 hidden: false
 draft: false
-tags: ["经济学"]
-categories: ["读后", "想法"]
+tags: ["工业革命"]
 keywords: []
 description: ""
 slug: "pre-industrial-era"

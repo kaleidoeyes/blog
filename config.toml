@@ -26,9 +26,8 @@ pygmentscodefencesguesssyntax = true
   main = [
       {name = "主页", Weight = 1, identifier = "home", url = "/"},
       {name = "标签", Weight = 2, identifier = "tags", url = "/tags/"},
-      {name = "分类", Weight = 3, identifier = "categories", url = "/categories/"},
-      {name = "归档", Weight = 4, identifier = "archive", url = "/posts/"},
-      {name = "关于", Weight = 5, identifier = "about", url = "/about/"}
+      {name = "归档", Weight = 3, identifier = "archive", url = "/posts/"},
+      {name = "关于", Weight = 4, identifier = "about", url = "/about/"}
   ]
 
 [params]

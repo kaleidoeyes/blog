@@ -3,8 +3,7 @@ title: "格式塔"
 date: 2022-09-23T21:01:03+08:00
 hidden: false
 draft: false
-tags: ["心理学"]
-categories: ["读后"]
+tags: ["心理"]
 keywords: ["格式塔", "gestalt"]
 description: ""
 slug: "gestalt"

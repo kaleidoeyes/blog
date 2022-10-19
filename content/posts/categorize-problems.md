@@ -3,8 +3,7 @@ title: "创造者驳论与问题的分类"
 date: 2022-10-13T20:06:32+08:00
 hidden: false
 draft: false
-tags: ["方法"]
-categories: ["想法"]
+tags: ["概率"]
 keywords: ["创造者驳论", "问题的分类"]
 description: "数学家波利亚提到了创造者驳论这个概念，大意是相较于解决一个特定类型的问题，解决一个更具普遍性的问题更加容易。"
 slug: "categorize-problems"

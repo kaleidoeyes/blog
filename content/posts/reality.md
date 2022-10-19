@@ -3,8 +3,7 @@ title: "隐现"
 date: 2022-10-06T23:09:41+08:00
 hidden: false
 draft: false
-tags: []
-categories: ["日志"]
+tags: ["日志"]
 keywords: []
 description: ""
 slug: "Reality"

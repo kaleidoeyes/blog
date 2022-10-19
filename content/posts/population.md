@@ -4,7 +4,6 @@ date: 2022-10-11T03:36:25Z
 hidden: false
 draft: false
 tags: ["人口"]
-categories: ["想法"]
 keywords: ["人口", "马尔萨斯"]
 description: "繁殖是人类的天然行为"
 slug: "population"

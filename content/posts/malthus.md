@@ -3,8 +3,7 @@ title: "前工业时代：马尔萨斯陷阱"
 date: 2022-09-27T18:32:32+08:00
 hidden: false
 draft: false
-tags: ["经济学"]
-categories: ["想法"]
+tags: ["人口"]
 keywords: ["马尔萨斯陷阱"]
 description: ""
 slug: "malthus"

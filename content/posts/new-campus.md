@@ -3,8 +3,7 @@ title: "校园"
 date: 2022-08-27T23:21:44+08:00
 hidden: false
 draft: false
-tags: []
-categories: ["日志"]
+tags: ["日志"]
 keywords: [""]
 description: ""
 slug: "new-campus"

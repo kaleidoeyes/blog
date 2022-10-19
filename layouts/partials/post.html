@@ -19,11 +19,11 @@
                     <span class="date">{{ .Date.Format "2006.01.02" }}</span>
                 </span>
                 
-                {{ with .Params.categories }}
+                {{ with .Params.tags }}
                 <span class="field tags">
                     <i class="ri-stack-line"></i>
                     {{ range . }}
-                    <a href="{{ "categories" | absURL }}/{{ . | urlize }}/">{{ . }}</a>
+                    <a href="{{ "tags" | absURL }}/{{ . | urlize }}/">{{ . }}</a>
                     {{ end }}
                 </span>
                 {{ end }}
