@@ -5,11 +5,11 @@ title = "Kaleidoeye"                        # site title                     # �
 theme = "zozo"
 hasCJKLanguage = true                  # has chinese/japanese/korean ?  # 自动检测是否包含 中文\日文\韩文
 summaryLength = 100
-paginate = 7                           # shows the number of articles   # 首页显示文章数量
+paginate = 13                           # shows the number of articles   # 首页显示文章数量
 enableEmoji = false
 googleAnalytics = ""                   # your google analytics id       # Google统计代码
 
-rssLimit = 7                          # RSS生成文章数量
+rssLimit = 13                        # RSS生成文章数量
 
 enableGitInfo = true
 pygmentsUseClasses = true
