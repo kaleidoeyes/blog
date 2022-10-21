@@ -6,12 +6,6 @@ draft: false
 lastmod: 2022-09-04
 ---
 
-[HeadSalon](https://headsalon.org/)- A Salon for Heads, No Sofa for Ass
-
-海德沙龙，偶然得之。
-
-<hr>
-
 [Qiuyuair的自留地](https://qiuyuair.com) - Airyu's Site
 
 无线电爱好者。
