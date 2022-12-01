@@ -15,7 +15,7 @@
                         {{ $date := .Date.Format "2006.01.02" }}
                         {{ $lastmod := .Lastmod.Format "2006.01.02" }}
                         {{ if ne $lastmod $date }}
-                        <span class="date">| Edited on {{ $lastmod }}</span>
+                        <span class="date">| Lastmod on {{ $lastmod }}</span>
                         {{ end }}
 
                     </div>
