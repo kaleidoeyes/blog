@@ -3,3 +3,4 @@ docs/
 .obsidian/
 .hugo_build.lock
 .trush/
+.zettel-notes/
