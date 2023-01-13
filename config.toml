@@ -41,7 +41,7 @@ pygmentscodefencesguesssyntax = true
   fancybox = true       # 图片放大功能
 
 [params.footer]
-  powered_by = 'Copyright © 2022 Kaleidoeye'
+  powered_by = 'Copyright © 2023 Kaleidoeye'
   Slogan = ""                                   # site's footer slogan 
   
 [params.twikoo]
