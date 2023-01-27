@@ -21,8 +21,8 @@
                 
                 {{ with .Params.tags }}
                 <span class="field tags">
-                    <i class="ri-stack-line"></i>
                     {{ range . }}
+                    <span>#</span>
                     <a href="{{ "tags" | absURL }}/{{ . | urlize }}/">{{ . }}</a>
                     {{ end }}
                 </span>

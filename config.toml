@@ -4,12 +4,12 @@ defaultContentLanguage = "zh-cn"
 title = "Kaleidoeye"                        # site title                     # 网站标题
 theme = "zozo"
 hasCJKLanguage = true                  # has chinese/japanese/korean ?  # 自动检测是否包含 中文\日文\韩文
-summaryLength = 37
-paginate = 13                      # shows the number of articles   # 首页显示文章数量
+summaryLength = 77
+paginate = 7                      # shows the number of articles   # 首页显示文章数量
 enableEmoji = false
 googleAnalytics = ""                   # your google analytics id       # Google统计代码
 
-rssLimit = 13                      # RSS生成文章数量
+rssLimit = 7                    # RSS生成文章数量
 
 enableGitInfo = true
 pygmentsUseClasses = true
