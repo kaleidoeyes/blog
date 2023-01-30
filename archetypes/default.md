@@ -7,7 +7,7 @@ tags: []
 categories: []
 keywords: []
 description: ""
-slug: ""
+slug: "{{ replace .Name "-" " " | title }}"
 lastmod: {{ .Date }}
 ---
 
