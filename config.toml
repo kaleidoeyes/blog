@@ -65,7 +65,8 @@ pygmentscodefencesguesssyntax = true
 
 [frontmatter]
   lastmod = ["lastmod", ":git", "date", "publishDate"]
-
+[permalinks]
+  posts = ":slug/"
 
 
   
