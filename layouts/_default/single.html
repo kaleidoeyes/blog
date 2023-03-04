@@ -10,14 +10,6 @@
                     <div class="post_title post_detail_title">
                         <h2><a href='{{ .RelPermalink }}'>{{ .Title }}</a></h2>
                         <span class="date">{{ .Date.Format "2006.01.02" }}</span>
-                        
-                        <!-- 文章更新时间 -->
-                        {{ $date := .Date.Format "2006.01.02" }}
-                        {{ $lastmod := .Lastmod.Format "2006.01.02" }}
-                        {{ if ne $lastmod $date }}
-                        <span class="date">| Edited on {{ $lastmod }}</span>
-                        {{ end }}
-
                     </div>
                     <div class="post_content markdown">{{ .Content }}</div>
                     <div class="post_footer">
@@ -37,7 +29,7 @@
                 </div>
                 <!-- 评论系统 -->
                 {{ if .Site.Params.twikoo.enable }}
-                {{ partial "comments_twikoo.html" . }}
+                {{ partial "comments.html" . }}
                 {{ end }}
             </div>
         </div>

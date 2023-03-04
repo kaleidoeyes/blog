@@ -1,13 +1,9 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: ""
 date: {{ .Date }}
 hidden: false
 draft: true
-tags: []
-categories: []
-keywords: []
-description: ""
+tags: [""]
 slug: "{{ replace .Name "-" " " | title }}"
-lastmod: {{ .Date }}
 ---
 

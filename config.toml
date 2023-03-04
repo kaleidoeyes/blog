@@ -1,7 +1,7 @@
 baseURL = "https://kaleidoeye.org/"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh-cn"
-title = "Kaleidoeye"                        # site title                     # 网站标题
+title = "Kaleidoeye"                      
 theme = "zozo"
 hasCJKLanguage = true                  # has chinese/japanese/korean ?  # 自动检测是否包含 中文\日文\韩文
 summaryLength = 77
@@ -10,14 +10,13 @@ enableEmoji = false
 googleAnalytics = ""                   # your google analytics id       # Google统计代码
 
 rssLimit = 7                    # RSS生成文章数量
-
-enableGitInfo = true
+enableGitInfo = false
 pygmentsUseClasses = true
 pygmentCodeFences = true
 pygmentscodefencesguesssyntax = true
 
 [author]                               # essential                      # 必需
-  name = "奂目"
+  name = "免介"
 
 [blackfriday]
   smartypants = false
@@ -33,13 +32,13 @@ pygmentscodefencesguesssyntax = true
 [params]
   subTitle = ""                                       # site's subTitle              # 网站二级标题
   footerSlogan = ""                                   # site's footer slogan         # 网站页脚标语
-  keywords = ["kaleidoeye","奂目"]                                   # site's keywords              # 网站关键字
+  keywords = ["kaleidoeye","免介"]                                   # site's keywords              # 网站关键字
   description = ""                        # site's description           # 网站描述
 #  enableMathJax = false                                                # enable mathjax               # 是否使用mathjax（数学公式）
   enableSummary = true                                                 # display the article summary  # 是否显示文章摘要
   mainSections = ["posts"]
   fancybox = true       # 图片放大功能
-
+  customCSS = ["/css/custom.css"]
 [params.footer]
   powered_by = 'Copyright © 2023 Kaleidoeye'
   Slogan = ""                                   # site's footer slogan 
@@ -47,12 +46,12 @@ pygmentscodefencesguesssyntax = true
 [params.twikoo]
   enable = true
   envId = 'https://twikoo.kaleidoeye.org/'
-  twikoojs = 'https://cdn.jsdelivr.net/npm/twikoo@1.6.8/dist/twikoo.min.js'  
+  twikoojs = 'https://cdn.jsdelivr.net/npm/twikoo@1.6.10/dist/twikoo.min.js'  
   
 # Your socail's url
 # 社交地址配置
 [social]
-  github = ""
+  github = "https://github.com/kaleidoeyes"
   twitter = ""
   facebook = ""
   weibo = ""
@@ -63,10 +62,7 @@ pygmentscodefencesguesssyntax = true
 [markup.goldmark.renderer]
   unsafe = true
 
-[frontmatter]
-  lastmod = ["lastmod", ":git", "date", "publishDate"]
 [permalinks]
   posts = "/:slug"
-
-
-  
+[taxonomies]
+  tag = "tags"
