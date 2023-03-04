@@ -7,6 +7,10 @@ draft: false
 
 <hr>
 
+<a href="https://fravilion.top/" target="_blank">固北阁</a> - 箱子
+
+<hr>
+
 <a href="https://www.timochan.cn/" target="_blank">TimochanのBlog</a> - Let’s start learning
 
 <hr>
