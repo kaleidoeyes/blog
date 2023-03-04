@@ -38,7 +38,6 @@ pygmentscodefencesguesssyntax = true
   enableSummary = true                                                 # display the article summary  # 是否显示文章摘要
   mainSections = ["posts"]
   fancybox = true       # 图片放大功能
-  customCSS = ["/css/custom.css"]
 [params.footer]
   powered_by = 'Copyright © 2023 Kaleidoeye'
   Slogan = ""                                   # site's footer slogan 
@@ -48,14 +47,8 @@ pygmentscodefencesguesssyntax = true
   envId = 'https://twikoo.kaleidoeye.org/'
   twikoojs = 'https://cdn.jsdelivr.net/npm/twikoo@1.6.10/dist/twikoo.min.js'  
   
-# Your socail's url
-# 社交地址配置
 [social]
   github = "https://github.com/kaleidoeyes"
-  twitter = ""
-  facebook = ""
-  weibo = ""
-  instagram = ""
 
 [markup]
 [markup.goldmark]

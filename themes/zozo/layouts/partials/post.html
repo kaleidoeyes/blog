@@ -18,14 +18,16 @@
                     <i class="ri-map-pin-time-line"></i>
                     <span class="date">{{ .Date.Format "2006.01.02" }}</span>
                 </span>
+                
                 {{ with .Params.tags }}
                 <span class="field tags">
-                    <i class="ri-stack-line"></i>
                     {{ range . }}
+                    <span>#</span>
                     <a href="{{ "tags" | absURL }}/{{ . | urlize }}/">{{ . }}</a>
                     {{ end }}
                 </span>
                 {{ end }}
+
             </div>
         </div>
     </div>
