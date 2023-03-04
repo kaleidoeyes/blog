@@ -57,5 +57,6 @@ pygmentscodefencesguesssyntax = true
 
 [permalinks]
   posts = "/:slug"
+  hidden = "/:slug"
 [taxonomies]
   tag = "tags"
