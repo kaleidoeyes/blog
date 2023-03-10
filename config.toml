@@ -56,7 +56,7 @@ pygmentscodefencesguesssyntax = true
   unsafe = true
 
 [permalinks]
-  posts = "/:slug"
-  hidden = "/:slug"
+  posts = "/:filename"
+  hidden = "/:filename"
 [taxonomies]
   tag = "tags"
