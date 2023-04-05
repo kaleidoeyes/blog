@@ -44,7 +44,7 @@ pygmentscodefencesguesssyntax = true
   
 [params.twikoo]
   enable = true
-  envId = 'https://twikoo.kaleidoeye.org/'
+  envId = 'https://twikoo.shue.io/'
   twikoojs = 'https://cdn.jsdelivr.net/npm/twikoo@1.6.11/dist/twikoo.min.js'  
   
 [social]
