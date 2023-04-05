@@ -16,7 +16,7 @@ pygmentCodeFences = true
 pygmentscodefencesguesssyntax = true
 
 [author]
-  name = "舒舍"
+  name = "Shue / 舒舍"
 
 [blackfriday]
   smartypants = false
