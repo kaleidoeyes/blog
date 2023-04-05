@@ -46,7 +46,9 @@ pygmentscodefencesguesssyntax = true
   enable = true
   envId = 'https://twikoo.shue.io/'
   twikoojs = 'https://cdn.jsdelivr.net/npm/twikoo@1.6.11/dist/twikoo.min.js'  
-  
+[params.customjs]
+  enable = true
+  js = '<script async defer data-website-id="7b0beb6f-a24b-4a03-b146-6e68517c2c0d" src="https://sumamus.shue.io/sumamus.js"></script>'
 [social]
   github = "https://github.com/shueio"
 
