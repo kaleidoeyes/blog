@@ -1,0 +1,10 @@
+<header>
+  {{ if .IsHome }}
+  <h1><a href="/" style="color: inherit; text-decoration: none">{{ .Site.Title }}</a></h1>
+  <nav>
+    <a href="mailto:i@shue.io" >Email</a> /
+    <a href="//github.com/shueio" target="_">Github</a> /
+    <a href="/index.xml">Subscribe</a>
+  </nav>
+  {{ end }}
+</header>

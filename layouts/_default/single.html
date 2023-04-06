@@ -1,0 +1,8 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+<div style="text-align: left; color: grey">{{ .Date.Format "2006-01-02" }} &middot; <a href="/">All posts</a></div>
+
+{{ .Content }}
+
+{{ end }}
