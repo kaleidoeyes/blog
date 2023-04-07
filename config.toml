@@ -1,6 +1,6 @@
 baseURL = "https://shue.io/"
 languageCode = "zh-cn"
-title = "Shue / 舒舍"
+title = "Shues / 舒舍"
 disableKinds = ['taxonomy', 'term']
 
 [author]
@@ -10,8 +10,8 @@ disableKinds = ['taxonomy', 'term']
 [params]
   keywords = ["Shue", "舒舍", "blog"]
   description = "Shue's blog"
-  mainSections = ["posts"]
-  
+  mainSections = ["writing"]
+
 [outputs]
   home     = ["HTML", "RSS"]
   section  = ["HTML"]
@@ -20,5 +20,5 @@ disableKinds = ['taxonomy', 'term']
   unsafe= true
   
 [permalinks]
-  posts = "/:filename"
+  writing = "/:filename"
   hidden = "/:filename"

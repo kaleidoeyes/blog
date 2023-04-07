@@ -28,13 +28,14 @@
 {{ end }}
 
 <meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.description }}{{ else }}{{ .Description }}{{ end }}" />
-<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.1.0/style.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css">
 <style type="text/css">
   body { 
-    font-size:1.1rem;
+    font-family: "LXGW WenKai Lite", sans-serif;
+    {{ if .IsHome }}font-size:1.3rem;{{ else }}font-size:1.1rem;{{ end }}
 	  margin: 0 auto;
-	  padding: 80px 30px;
+	  padding: 30px 30px;
 	  max-width: 800px;
   }
 </style>
