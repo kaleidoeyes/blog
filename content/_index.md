@@ -6,4 +6,4 @@ date: 2023-04-07
 
 如有任何问题或建议，请邮件 [[i@shue.io]](mailto:i@shue.io) 联系。
 
-其他链接：[[RSS]](/index.xml) / [[友链]](/links) / [[Github]](https://github.com/shueio)
+其他链接：[[RSS]](/index.xml) / [[友链]](/links).
