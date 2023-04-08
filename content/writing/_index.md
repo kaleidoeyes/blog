@@ -1,6 +1,8 @@
 ---
-title: "My Writing"
-description: "舒舍写的一些文字。"
+title: My Writing
+description: 舒舍写的一些文字。
+date: 2023-04-08
+filename: _index
 ---
 
 >可是，去吧——请带一点偏心\
