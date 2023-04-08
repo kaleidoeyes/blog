@@ -8,14 +8,15 @@ media_folder: static/img
 public_folder: /img
 site_url: "https://shue.io"
 locale: "zh_Hans"
+show_preview_links: false
 search: false
+editor:
+  preview: false
 common_post: &common_post
   create: true
   slug: "{{filename}}"
   sortable_fields:
     - "date"
-  editor:
-      preview: false
   fields:
     - label: "Title"
       name: "title"
@@ -35,8 +36,6 @@ common_page: &common_page
   create: false
   sortable_fields:
     - "date"
-  editor:
-      preview: false
   fields:
     - label: "Title"
       name: "title"
@@ -45,24 +44,24 @@ common_page: &common_page
       name: "body"
       widget: "markdown"
 collections:
-  - name: 'writing'
-    label: 'writing'
+  - label: 'Writing'
+    name: 'writing'
     folder: 'content/writing'
     create: true
     <<: *common_post
-  - name: 'hidden'
-    label: 'hidden'
+  - label: 'Hidden'
+    name: 'hidden'
     folder: 'content/hidden'
     create: true
     <<: *common_post
-  - name: "pages"
-    label: "pages"
+  - label: "Pages"
+    name: "pages"
     files:
-      - name: "homepage"
-        label: "homepage"
+      - label: "Homepage"
+        name: "homepage"
         file: "content/_index.md"
         <<: *common_page
-      - name: "Links"
-        label: "links"
+      - label: "Links"
+        name: "links"
         file: "content/pages/links.md"
         <<: *common_page
