@@ -2,6 +2,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="author" content="{{ .Site.Author.name | safeHTML }}" />
+
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -9,6 +10,7 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
+
 <link rel="alternate" type="application/rss+xml" href='{{ "/index.xml" | absURL }}' />
 
 {{ $title := ( .Title ) }}
@@ -19,15 +21,15 @@
 <title>{{ $title }} ｜ {{ $siteTitle }}</title>
 {{ end }}
 
-{{ if .Keywords }}
-{{ $length := len .Keywords | add -1 }}
-<meta name="keywords" content="{{ range $index, $element := .Keywords }}{{ $element | safeHTML }}{{ if ne $index $length }}, {{ end }}{{ end }}" />
-{{ else if .Site.Params.keywords }}
+{{ if .IsHome }}
 {{ $length := len .Site.Params.keywords | add -1 }}
-<meta name="keywords" content="{{ range $index, $element := .Site.Params.keywords }}{{ $element | safeHTML }}{{ if ne $index $length }}, {{ end }}{{ end }}" />
+<meta name="keywords" content="{{ range $index, $element := .Keywords }}{{ $element | safeHTML }}{{ if ne $index $length }}, {{ end }}{{ end }}" />
+{{ else }}
+<meta name="keywords" content="{{ .Title }}" />
 {{ end }}
 
-<meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.description }}{{ else }}{{ .Description }}{{ end }}" />
+<meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.description }}{{ else }}{{ .Summary }}{{ end }}" />
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.1.0/style.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css">
 <style type="text/css">

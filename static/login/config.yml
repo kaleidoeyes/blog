@@ -9,7 +9,7 @@ public_folder: /img
 site_url: "https://shue.io"
 locale: "zh_Hans"
 search: false
-common_col_conf: &common_col_conf
+common_post: &common_post
   create: true
   slug: "{{filename}}"
   sortable_fields:
@@ -31,25 +31,38 @@ common_col_conf: &common_col_conf
     - label: "Content"
       name: "body"
       widget: "markdown"
+common_page: &common_page
+  create: false
+  sortable_fields:
+    - "date"
+  editor:
+      preview: false
+  fields:
+    - label: "Title"
+      name: "title"
+      widget: "string"
+    - label: "Content"
+      name: "body"
+      widget: "markdown"
 collections:
   - name: 'writing'
     label: 'writing'
     folder: 'content/writing'
     create: true
-    <<: *common_col_conf
+    <<: *common_post
   - name: 'hidden'
     label: 'hidden'
     folder: 'content/hidden'
     create: true
-    <<: *common_col_conf
+    <<: *common_post
   - name: "pages"
     label: "pages"
     files:
       - name: "homepage"
         label: "homepage"
         file: "content/_index.md"
-        <<: *common_col_conf
+        <<: *common_page
       - name: "Links"
         label: "links"
         file: "content/pages/links.md"
-        <<: *common_col_conf
+        <<: *common_page
