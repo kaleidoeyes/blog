@@ -7,7 +7,6 @@ backend:
 media_folder: static/img
 public_folder: /img
 site_url: "https://shue.io"
-logo_url: "https://shue.io/favicon-32x32.png"
 locale: "zh_Hans"
 search: false
 common_col_conf: &common_col_conf
