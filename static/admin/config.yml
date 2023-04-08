@@ -1,0 +1,56 @@
+backend:
+  name: github
+  repo: shueio/blog
+  branch: main # Branch to update (optional; defaults to master)
+  base_url: https://shue.io
+  auth_endpoint: /api/auth
+media_folder: static/img
+public_folder: /img
+site_url: "https://shue.io"
+logo_url: "https://shue.io/favicon-32x32.png"
+locale: "zh_Hans"
+search: false
+common_col_conf: &common_col_conf
+  create: true
+  slug: "{{filename}}"
+  sortable_fields:
+    - "date"
+  editor:
+      preview: false
+  fields:
+    - label: "Title"
+      name: "title"
+      widget: "string"
+    - label: "Date"
+      name: "date"
+      widget: "datetime"
+      format: "YYYY-MM-DD"
+      date_format: "YYYY-MM-DD"
+    - label: "Filename"
+      name: "filename"
+      widget: "string"
+    - label: "Content"
+      name: "body"
+      widget: "markdown"
+collections:
+  - name: 'writing'
+    label: 'writing'
+    folder: 'content/writing'
+    create: true
+    <<: *common_col_conf
+  - name: 'hidden'
+    label: 'hidden'
+    folder: 'content/hidden'
+    create: true
+    <<: *common_col_conf
+  - name: "pages"
+    label: "pages"
+    files:
+      - name: "homepage"
+        label: "homepage"
+        file: "content/_index.md"
+        <<: *common_col_conf
+      - name: "Links"
+        label: "links"
+        file: "content/pages/links.md"
+        <<: *common_col_conf

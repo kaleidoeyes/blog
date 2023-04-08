@@ -22,3 +22,4 @@ disableKinds = ['taxonomy', 'term']
 [permalinks]
   writing = "/:filename"
   hidden = "/:filename"
+  pages = "/:filename"
