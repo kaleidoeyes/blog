@@ -40,6 +40,11 @@ common_page: &common_page
     - label: "Title"
       name: "title"
       widget: "string"
+    - label: "Date"
+      name: "date"
+      widget: "datetime"
+      format: "YYYY-MM-DD"
+      date_format: "YYYY-MM-DD"
     - label: "Content"
       name: "body"
       widget: "markdown"
@@ -47,12 +52,10 @@ collections:
   - label: 'Writing'
     name: 'writing'
     folder: 'content/writing'
-    create: true
     <<: *common_post
   - label: 'Hidden'
     name: 'hidden'
     folder: 'content/hidden'
-    create: true
     <<: *common_post
   - label: "Pages"
     name: "pages"
