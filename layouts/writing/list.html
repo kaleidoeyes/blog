@@ -5,12 +5,12 @@
   </p>
 <table>
 {{ range .Pages.GroupByDate "2006" }}
-<h3 style="margin-top: 37px;">{{ .Key }}</h3>
+<h3>{{ .Key }}</h3>
 <table>
 {{ range .Pages }}
   <tr>
     <td style="width: 20%">{{ .Date.Format "Jan 02" }}</td>
-    <td><a href="{{ .RelPermalink }}" style="text-decoration: none; color: inherit">{{ .Title }}</a></td>
+    <td><a href="{{ .RelPermalink }}" style="text-decoration: none; color: inherit;">{{ .Title }}</a></td>
   </tr>
 {{ end }}
 </table>

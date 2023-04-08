@@ -30,11 +30,9 @@
 
 <meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.description }}{{ else }}{{ .Summary }}{{ end }}" />
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.1.0/style.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css">
 <style type="text/css">
   body { 
-    font-family: "LXGW WenKai Lite", sans-serif;
     {{ if .IsHome }}font-size:1.3rem;{{ else }}font-size:1.1rem;{{ end }}
 	  margin: 0 auto;
 	  padding: 30px 30px;
@@ -42,5 +40,5 @@
   }
 </style>
 
-<!--This js is used to collect data for Shue, so others using the template please delete it.-->
+<!--This js is used to collect data for Shue, so others using the template please delete it-->
 <script async defer data-website-id="8e49d02a-d4bc-4ada-9cea-7035df41c700" src="https://data.shue.io/sumamus.js"></script>
