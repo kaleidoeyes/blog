@@ -1,6 +1,6 @@
 baseURL = "https://shue.io/"
 languageCode = "zh-cn"
-title = "Shues / 舒舍"
+title = "Shue / 舒舍"
 disableKinds = ['taxonomy', 'term']
 
 [author]
