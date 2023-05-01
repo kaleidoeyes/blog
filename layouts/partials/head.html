@@ -21,14 +21,21 @@
 <title>{{ $title }} ｜ {{ $siteTitle }}</title>
 {{ end }}
 
-{{ if .IsHome }}
-{{ $length := len .Site.Params.keywords | add -1 }}
-<meta name="keywords" content="{{ range $index, $element := .Keywords }}{{ $element | safeHTML }}{{ if ne $index $length }}, {{ end }}{{ end }}" />
-{{ else }}
-<meta name="keywords" content="{{ .Title }}" />
-{{ end }}
+ {{ if .Description }}
+    <meta name="description" content="{{ .Description | safeHTML }}" />
+    {{ else if .IsPage }}
+    <meta name="description" content="{{ .Summary | plainify }}" />
+    {{ else if .Site.Params.description }}
+    <meta name="description" content="{{ .Site.Params.description | safeHTML }}" />
+    {{ end }}
 
-<meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.description }}{{ else }}{{ .Summary }}{{ end }}" />
+    {{ if .Keywords }}
+    {{ $length := len .Keywords | add -1 }}
+    <meta name="keywords" content="{{ range $index, $element := .Keywords }}{{ $element | safeHTML }}{{ if ne $index $length }}, {{ end }}{{ end }}" />
+    {{ else if .Site.Params.keywords }}
+    {{ $length := len .Site.Params.keywords | add -1 }}
+    <meta name="keywords" content="{{ range $index, $element := .Site.Params.keywords }}{{ $element | safeHTML }}{{ if ne $index $length }}, {{ end }}{{ end }}" />
+    {{ end }}
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css">
 <style type="text/css">
@@ -37,6 +44,9 @@
 	  margin: 0 auto;
 	  padding: 30px 30px;
 	  max-width: 800px;
+  }
+  p {
+    white-space: pre-line;
   }
 </style>
 

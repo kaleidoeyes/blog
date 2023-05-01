@@ -15,11 +15,13 @@ disableKinds = ['taxonomy', 'term']
 [outputs]
   home     = ["HTML", "RSS"]
   section  = ["HTML"]
-  
-[markup.goldmark.renderer]
-  unsafe= true
-  
+
 [permalinks]
   writing = "/:filename"
   hidden = "/:filename"
   pages = "/:filename"
+  
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
