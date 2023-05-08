@@ -1,6 +1,10 @@
 {{ define "main" }}
 
-<div style="text-align: left; color: grey">{{ .Date.Format "2006-01-02" }} &middot; <a href="/writing">[All posts]</a></div>
+<div style="text-align: left; color: grey">
+  {{ if (eq .Section "writing") }}
+    {{ .Date.Format "2006-01-02" }} &middot; 
+  {{ end }}
+  <a href="/writing">[All posts]</a></div>
 
 {{ .Content }}
 
