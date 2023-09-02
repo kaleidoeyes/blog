@@ -37,7 +37,7 @@
     <meta name="keywords" content="{{ range $index, $element := .Site.Params.keywords }}{{ $element | safeHTML }}{{ if ne $index $length }}, {{ end }}{{ end }}" />
     {{ end }}
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css">
+<link rel="stylesheet" href="/css/water.min.css">
 <style type="text/css">
   body { 
     {{ if .IsHome }}font-size:1.3rem;{{ else }}font-size:1.1rem;{{ end }}
