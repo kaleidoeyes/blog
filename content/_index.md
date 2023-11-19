@@ -1,8 +1,8 @@
 ---
-title: "Shue"
+title: "Salve!"
 date: 2023-04-07
 ---
-这里是舒舍的个人网站，有其所写的[[一些文字]](/writing)。
+这里是免介的个人网站，有其所写的[[一些文字]](/writing)。
 
 若有任何问题或建议，请邮件 [[i@shue.io]](mailto:i@shue.io) 联系。
 
