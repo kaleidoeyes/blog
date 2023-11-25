@@ -5,10 +5,10 @@ disableKinds = ['taxonomy', 'term']
 
 [author]
   name = "MianJie"
-  email = "i@shue.io"
+  email = "shue@tuta.io"
 
 [params]
-  keywords = ["免介", "mianjie", "blog"]
+  keywords = ["免介", "mianjie", "mian-jie", "MianJie"]
   description = "博客"
   mainSections = ["writing"]
 
