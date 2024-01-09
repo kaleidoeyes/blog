@@ -1,4 +1,4 @@
-baseURL = "https://mian-jie.github.io"
+baseURL = "https://shue.io"
 languageCode = "zh-cn"
 title = "MianJie"
 disableKinds = ['taxonomy', 'term']
@@ -8,7 +8,7 @@ disableKinds = ['taxonomy', 'term']
   email = "shue@tuta.io"
 
 [params]
-  keywords = ["免介", "mianjie", "mian-jie", "MianJie"]
+  keywords = ["免介", "mianjie","shue", "MianJie"]
   description = "博客"
   mainSections = ["writing"]
 
