@@ -1,9 +1,9 @@
 ---
-title: "Salve!"
+title: "拟都"
 date: 2023-04-07
 ---
-这里是免介的个人网站，有其所写的[[一些文字]](/writing)。
+>可是，去吧——请带一点偏心
+接受这一堆芜杂的篇章。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;——普希金
 
-若有任何问题或建议，请邮件 [[shue@tuta.io]](mailto:shue@tuta.io) 联系。
-
-其他链接：[[RSS]](/index.xml) / [[友链]](/links).
+[[RSS]](/index.xml)

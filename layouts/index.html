@@ -1,3 +1,18 @@
 {{ define "main" }}
+<main>
+      <p>
       {{ .Content }}
+      </p>
+      {{ range  (where .Site.RegularPages "Section" "writing" ).GroupByDate "2006" }} 
+      <h3>{{ .Key }}</h3>
+      <table>
+      {{ range .Pages }}
+      <tr>
+            <td style="width: 20%">{{ .Date.Format "Jan 02"}}</td>
+            <td><a href="{{ .RelPermalink }}" style="text-decoration: none; color: inherit;">{{ .Title }}</a></td>
+      </tr>
+      {{ end }}
+      </table>
+      {{ end }}
+</main>
 {{ end }}
