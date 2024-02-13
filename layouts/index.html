@@ -6,7 +6,7 @@
       <table>
       {{ range .Pages }}
       <tr>
-            <td style="width: 20%">{{ .Date.Format "Jan 02"}}</td>
+            <td class="time">{{ .Date.Format "Jan 02"}}</td>
             <td><a href="{{ .RelPermalink }}" style="text-decoration: none; color: inherit;">{{ .Title }}</a></td>
       </tr>
       {{ end }}
