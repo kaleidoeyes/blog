@@ -1,8 +1,6 @@
 {{ define "main" }}
 <main>
-      <p>
       {{ .Content }}
-      </p>
       {{ range  (where .Site.RegularPages "Section" "writing" ).GroupByDate "2006" }} 
       <h3>{{ .Key }}</h3>
       <table>

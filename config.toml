@@ -1,6 +1,6 @@
-baseURL = "https://shue.io"
+baseURL = "https://nidu.city"
 languageCode = "zh-cn"
-title = "MianJie"
+title = "拟都"
 disableKinds = ['taxonomy', 'term']
 
 [author]
@@ -8,8 +8,8 @@ disableKinds = ['taxonomy', 'term']
   email = "shue@tuta.io"
 
 [params]
-  keywords = ["免介", "mianjie","shue", "MianJie"]
-  description = "博客"
+  keywords = ["免介", "mianjie","shue", "nidu", "拟都"]
+  description = "拟都"
   mainSections = ["writing"]
 
 [outputs]
