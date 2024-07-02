@@ -3,8 +3,8 @@ languageCode = "zh-cn"
 title = "拟都"
 disableKinds = ['taxonomy', 'term']
 
-[author]
-  name = "MianJie"
+[taxonomies]
+  author = "MianJie"
   email = "i@nidu.city"
 
 [params]
