@@ -3,7 +3,7 @@
 #+keywords: emacs android termux Chinese input
 
 
-Emacs 已经推出了安卓版，可以从[[https://sourceforge.net/projects/android-ports-for-gnu-emacs/files/][Sourceforge]]下载，README 提供了一些常见问题的解答。本文是我遇到的另外一些问题以及解决方法。
+Emacs 已经有了安卓版，可以从[[https://sourceforge.net/projects/android-ports-for-gnu-emacs/files/][Sourceforge]]下载，README 提供了一些常见问题的解答。本文是我遇到的另外一些问题以及解决方法。
 
 ** 配置文件
 安卓版 Emacs 启用的配置文件夹 ~.emacd.d~ 位于其私有目录 ~/data/data/org.gnu.emacs/files~ ，其他应用无法打开，并且卸载应用时其下所有文件也会一并删除。这非常不利于对其进行管理，毕竟在安装后，Emacser 首先启用的总是自己精心维护的配置文件。不过这个问题可以用软链接的方式解决。
@@ -26,7 +26,7 @@ Emacs 已经推出了安卓版，可以从[[https://sourceforge.net/projects/and
 #+end_src
 之后重启Emacs即可。
 ** 中文输入
-在使用蓝牙键盘时，发现一些输入法比如 Fcitx5 无法输入中文，只好用回了系统默认的输入法（三星）。这其实也是 Termux 存在的问题。
+在使用蓝牙键盘时，发现一些输入法比如 Fcitx5 无法输入中文，只能在虚拟键盘展开时输入。这其实也是 Termux 存在的问题。
 
 在使用 I-search 时，同样无法输入中文，这时可以按下 ~C-\~ 启用拼符模式，默认是中文全拼，再次按下 ~C-\~ 以关闭。
 ** 字体大小
