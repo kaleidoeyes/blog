@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-11-06 Wed 17:50 -->
+<!-- 2024-11-07 Thu 12:11 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>爬取《喜马拉雅》音频</title>
@@ -18,27 +18,27 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org20dc5f2">1. 引言</a></li>
-<li><a href="#org116f093">2. 分析</a>
+<li><a href="#orgb0ec03a">1. 引言</a></li>
+<li><a href="#orgd1e1dad">2. 分析</a>
 <ul>
-<li><a href="#org36ef322">2.1. 1</a></li>
-<li><a href="#org8868097">2.2. 2</a></li>
+<li><a href="#org5c9a971">2.1. 1</a></li>
+<li><a href="#org8dc9b2e">2.2. 2</a></li>
 </ul>
 </li>
-<li><a href="#orga9392c4">3. 程序</a>
+<li><a href="#org331bfc5">3. 程序</a>
 <ul>
-<li><a href="#orgcf7dcf0">3.1. 获取id</a></li>
-<li><a href="#orgf009fd5">3.2. 获取音频链接</a></li>
-<li><a href="#org6bc6888">3.3. 下载音频</a></li>
+<li><a href="#org1dc6a8d">3.1. 获取id</a></li>
+<li><a href="#orgc64a5d5">3.2. 获取音频链接</a></li>
+<li><a href="#orgb59095f">3.3. 下载音频</a></li>
 </ul>
 </li>
-<li><a href="#orgadc5831">4. 全部代码</a></li>
+<li><a href="#org5a8499f">4. 全部代码</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org20dc5f2" class="outline-2">
-<h2 id="org20dc5f2"><span class="section-number-2">1.</span> 引言</h2>
+<div id="outline-container-orgb0ec03a" class="outline-2">
+<h2 id="orgb0ec03a"><span class="section-number-2">1.</span> 引言</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 《喜马拉雅》上既有许多有价值的音频，也有许多繁杂无用的时间陷阱。于是，取我所需就成了第一要务，APP就是舍弃的对象。软件上下载了音频，却发现惨遭加密。那么，就爬吧。
@@ -46,19 +46,19 @@
 </div>
 </div>
 
-<div id="outline-container-org116f093" class="outline-2">
-<h2 id="org116f093"><span class="section-number-2">2.</span> 分析</h2>
+<div id="outline-container-orgd1e1dad" class="outline-2">
+<h2 id="orgd1e1dad"><span class="section-number-2">2.</span> 分析</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-org36ef322" class="outline-3">
-<h3 id="org36ef322"><span class="section-number-3">2.1.</span> 1</h3>
+<div id="outline-container-org5c9a971" class="outline-3">
+<h3 id="org5c9a971"><span class="section-number-3">2.1.</span> 1</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
 以<a href="https://www.ximalaya.com/album/31109428">此专辑</a>为例，目标是获取音频。
 </p>
 
 
-<div id="org90e0a00" class="figure">
+<div id="orgc4fd26f" class="figure">
 <p><img src="https://image.nidu.city/py-ximalaya-1.jpg" alt="py-ximalaya-1.jpg" />
 </p>
 </div>
@@ -68,7 +68,7 @@
 </p>
 
 
-<div id="org6dad6bd" class="figure">
+<div id="org350e9a4" class="figure">
 <p><img src="https://image.nidu.city/py-ximalaya-2.jpg" alt="py-ximalaya-2.jpg" />
 </p>
 </div>
@@ -78,7 +78,7 @@
 </p>
 
 
-<div id="orgd6f6b35" class="figure">
+<div id="org23f8333" class="figure">
 <p><img src="https://image.nidu.city/py-ximalaya-3.jpg" alt="py-ximalaya-3.jpg" />
 </p>
 </div>
@@ -97,15 +97,15 @@
 </div>
 </div>
 
-<div id="outline-container-org8868097" class="outline-3">
-<h3 id="org8868097"><span class="section-number-3">2.2.</span> 2</h3>
+<div id="outline-container-org8dc9b2e" class="outline-3">
+<h3 id="org8dc9b2e"><span class="section-number-3">2.2.</span> 2</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 再来到专辑主页，主页一共有20个Page，分布着596个声音，分析网页源代码，发现其中只能找到第一个Page中的声音。右键检查网络，点击第二个Page、第三个，看到出现了新的文件，
 </p>
 
 
-<div id="org53deb2b" class="figure">
+<div id="org5f903c6" class="figure">
 <p><img src="https://image.nidu.city/py-ximalaya-4.jpg" alt="py-ximalaya-4.jpg" />
 </p>
 </div>
@@ -133,12 +133,12 @@
 </div>
 </div>
 
-<div id="outline-container-orga9392c4" class="outline-2">
-<h2 id="orga9392c4"><span class="section-number-2">3.</span> 程序</h2>
+<div id="outline-container-org331bfc5" class="outline-2">
+<h2 id="org331bfc5"><span class="section-number-2">3.</span> 程序</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-orgcf7dcf0" class="outline-3">
-<h3 id="orgcf7dcf0"><span class="section-number-3">3.1.</span> 获取id</h3>
+<div id="outline-container-org1dc6a8d" class="outline-3">
+<h3 id="org1dc6a8d"><span class="section-number-3">3.1.</span> 获取id</h3>
 <div class="outline-text-3" id="text-3-1">
 <div class="org-src-container">
 <pre class="src src-python">import requests
@@ -168,8 +168,8 @@ for url in id_pages:
 </div>
 </div>
 
-<div id="outline-container-orgf009fd5" class="outline-3">
-<h3 id="orgf009fd5"><span class="section-number-3">3.2.</span> 获取音频链接</h3>
+<div id="outline-container-orgc64a5d5" class="outline-3">
+<h3 id="orgc64a5d5"><span class="section-number-3">3.2.</span> 获取音频链接</h3>
 <div class="outline-text-3" id="text-3-2">
 <div class="org-src-container">
 <pre class="src src-python">audio_pages = [f'https://www.ximalaya.com/revision/play/v1/audio?id={id}&amp;ptype=1' for id in audio_id]  # 596个音频信息页
@@ -187,8 +187,8 @@ for url in audio_pages:
 
 
 
-<div id="outline-container-org6bc6888" class="outline-3">
-<h3 id="org6bc6888"><span class="section-number-3">3.3.</span> 下载音频</h3>
+<div id="outline-container-orgb59095f" class="outline-3">
+<h3 id="orgb59095f"><span class="section-number-3">3.3.</span> 下载音频</h3>
 <div class="outline-text-3" id="text-3-3">
 <div class="org-src-container">
 <pre class="src src-python">for i in range(596):
@@ -205,8 +205,8 @@ for url in audio_pages:
 </div>
 </div>
 
-<div id="outline-container-orgadc5831" class="outline-2">
-<h2 id="orgadc5831"><span class="section-number-2">4.</span> 全部代码</h2>
+<div id="outline-container-org5a8499f" class="outline-2">
+<h2 id="org5a8499f"><span class="section-number-2">4.</span> 全部代码</h2>
 <div class="outline-text-2" id="text-4">
 <div class="org-src-container">
 <pre class="src src-python">import requests
@@ -255,7 +255,7 @@ for i in range(596):
 <div id="postamble" class="status">
 <p class="date">Date: 2022-08-11 Thu 19:22</p>
 <p class="author">Author: Mian Jie</p>
-<p class="date">Created: 2024-11-06 Wed 17:50</p>
+<p class="date">Created: 2024-11-07 Thu 12:11</p>
 </div>
 </body>
 </html>
