@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-11-12 Tue 14:50 -->
+<!-- 2025-01-20 Mon 21:30 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>使用Python爬取知乎日报并发送至邮箱</title>
@@ -18,23 +18,24 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org838e8ad">1. 爬取内容</a>
+<li><a href="#orge3d7e16">1. 爬取内容</a>
 <ul>
-<li><a href="#orgc95bb45">1.1. 提取</a></li>
+<li><a href="#org99f7d0d">1.1. 提取</a></li>
 </ul>
 </li>
-<li><a href="#orgacca506">2. 邮件编写</a></li>
-<li><a href="#orgf90b957">3. 邮件发送</a>
+<li><a href="#org9d75766">2. 邮件编写</a></li>
+<li><a href="#orgab71541">3. 邮件发送</a>
 <ul>
-<li><a href="#orgda03bb2">3.1. 配置yagmail信息</a></li>
-<li><a href="#org165b9ef">3.2. 发送邮件</a></li>
+<li><a href="#org4b53208">3.1. 配置yagmail信息</a></li>
+<li><a href="#org084d827">3.2. 发送邮件</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org838e8ad" class="outline-2">
-<h2 id="org838e8ad"><span class="section-number-2">1.</span> 爬取内容</h2>
+
+<div id="outline-container-orge3d7e16" class="outline-2">
+<h2 id="orge3d7e16"><span class="section-number-2">1.</span> 爬取内容</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 首先，导入需要的库：
@@ -76,7 +77,7 @@ headers是一个防反爬的措施。如果把它去掉，平台的服务器会�
 </p>
 
 
-<div id="orga5aa84a" class="figure">
+<div id="org73c8183" class="figure">
 <p><img src="https://image.nidu.city/py-zhihu-1.jpg" alt="py-zhihu-1.jpg" />
 </p>
 </div>
@@ -107,8 +108,9 @@ headers是一个防反爬的措施。如果把它去掉，平台的服务器会�
 其中， 我们只需要image, url与title。
 </p>
 </div>
-<div id="outline-container-orgc95bb45" class="outline-3">
-<h3 id="orgc95bb45"><span class="section-number-3">1.1.</span> 提取</h3>
+
+<div id="outline-container-org99f7d0d" class="outline-3">
+<h3 id="org99f7d0d"><span class="section-number-3">1.1.</span> 提取</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 下面编写正则表达式提取我们需要的内容：
@@ -126,8 +128,9 @@ results = obj.findall(tops)
 </div>
 </div>
 </div>
-<div id="outline-container-orgacca506" class="outline-2">
-<h2 id="orgacca506"><span class="section-number-2">2.</span> 邮件编写</h2>
+
+<div id="outline-container-org9d75766" class="outline-2">
+<h2 id="org9d75766"><span class="section-number-2">2.</span> 邮件编写</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 邮件内容其实也是HTML，所以我们需要设计以下内容，当然你也可以不，但这样可以使内容更加美观。
@@ -154,12 +157,13 @@ contents是我们的内容容器，我们遍历results，将内容以相同的�
 </p>
 </div>
 </div>
-<div id="outline-container-orgf90b957" class="outline-2">
-<h2 id="orgf90b957"><span class="section-number-2">3.</span> 邮件发送</h2>
+
+<div id="outline-container-orgab71541" class="outline-2">
+<h2 id="orgab71541"><span class="section-number-2">3.</span> 邮件发送</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-orgda03bb2" class="outline-3">
-<h3 id="orgda03bb2"><span class="section-number-3">3.1.</span> 配置yagmail信息</h3>
+<div id="outline-container-org4b53208" class="outline-3">
+<h3 id="org4b53208"><span class="section-number-3">3.1.</span> 配置yagmail信息</h3>
 <div class="outline-text-3" id="text-3-1">
 <div class="org-src-container">
 <pre class="src src-python">yag = yagmail.SMTP(user='###', password='###', host="smtp.###.com")
@@ -186,8 +190,9 @@ contents是我们的内容容器，我们遍历results，将内容以相同的�
 </ul>
 </div>
 </div>
-<div id="outline-container-org165b9ef" class="outline-3">
-<h3 id="org165b9ef"><span class="section-number-3">3.2.</span> 发送邮件</h3>
+
+<div id="outline-container-org084d827" class="outline-3">
+<h3 id="org084d827"><span class="section-number-3">3.2.</span> 发送邮件</h3>
 <div class="outline-text-3" id="text-3-2">
 <div class="org-src-container">
 <pre class="src src-python">yag.send(to="###", subject="知乎日报", contents=contents)
@@ -207,9 +212,11 @@ subject为邮件的主题，contents即已编写好的邮件内容。
 如此，邮件就已发送完毕，如果未接收到，可以到垃圾邮件中看看。
 </p>
 
-<p>
-<a href="https://image.nidu.city/py-zhihu-2.jpg">演示</a>
+
+<div id="org6d0c3a1" class="figure">
+<p><img src="https://image.nidu.city/py-zhihu-2.jpg" alt="py-zhihu-2.jpg" />
 </p>
+</div>
 
 
 <p>
@@ -256,7 +263,7 @@ print("OK!")
 <div id="postamble" class="status">
 <p class="date">Date: 2022-05-16 Mon 21:54</p>
 <p class="author">Author: Mian Jie</p>
-<p class="date">Created: 2024-11-12 Tue 14:50</p>
+<p class="date">Created: 2025-01-20 Mon 21:30</p>
 </div>
 </body>
 </html>
